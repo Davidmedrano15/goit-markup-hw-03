@@ -1,0 +1,251 @@
+:root {
+  --brand-color: #2196f3;
+  --nav-list: #212121;
+  --list-contac: #757575;
+  --foot: #ffffff;
+  --fondo: #2f303a;
+  --fondo2: #f5f4fa;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--nav-list);
+  font-size: 14px;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  color: var(--list-contac);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+}
+h1 {
+  color: var(--foot);
+  font-size: 44px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 200px;
+}
+h2 {
+  font-size: 36px;
+  color: var(--nav-list);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+h3 {
+  color: var(--nav-list);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav .nav-list .nav-list-item:hover,
+.nav .nav-list .nav-list-item:focus {
+  color: var(--brand-color);
+}
+.list-contac .list-item:hover,
+.list-contac .list-item:focus {
+  color: var(--brand-color);
+}
+.foot .list-foot .list-foot-item:hover,
+.foot .list-foot .list-foot-item:focus {
+  color: var(--brand-color);
+}
+.foot .list-foot .foot-item:hover,
+.foot .list-foot .foot-item:focus {
+  color: var(--brand-color);
+}
+.main .button-menu .btn:hover,
+.main .button-menu .btn:focus {
+  color: var(--foot);
+}
+.main .main-item .btn-item:hover,
+.main .main-item .btn-item:focus {
+  color: var(--foot);
+}
+
+.nav-list {
+  font-size: 14px;
+  line-height: 1.1;
+  display: flex;
+}
+
+.nav-list-item {
+  color: var(--nav-list);
+  font-weight: 500;
+  margin: 30px;
+}
+.list-contac {
+  font-size: 14px;
+  line-height: 1.1;
+  display: flex;
+}
+.list-item {
+  color: var(--list-contac);
+  font-weight: 500;
+  margin: 10px;
+}
+.logo {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+}
+.main-item {
+  background-color: var(--fondo);
+  font-size: 44px;
+  line-height: 1.36;
+  width: 100%;
+  height: 100vh;
+}
+.foot {
+  background-color: var(--fondo);
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 50px;
+  padding-left: 90px;
+}
+.list-foot {
+  font-style: normal;
+}
+.list-foot-item {
+  color: var(--foot);
+  font-weight: 400;
+}
+.foot-item {
+  color: var(--list-contac);
+  font-weight: 400;
+}
+.btn-item {
+  background-color: var(--brand-color);
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 580px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  color: var(--fondo2);
+  padding: 10px;
+}
+.button-menu {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  color: var(--nav-list);
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: var(--fondo2);
+  border: var(--fondo2);
+  padding: 6px 24px;
+  border-radius: 4px;
+}
+.gallery {
+  padding-bottom: 90px;
+}
+.gallery-info {
+  background: var(--fondo2);
+  padding: 90px;
+}
+.gallery-list {
+  background-color: var(--foot);
+}
+.gallery-new {
+  display: flex;
+  justify-content: space-evenly;
+}
+.active {
+  color: var(--brand-color);
+}
+.active-button {
+  color: var(--foot);
+  background-color: var(--brand-color);
+}
+.header {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #ececec;
+}
+.item-new {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 10px;
+  padding-left: 50px;
+  padding-top: 95px;
+  padding-right: 50px;
+  padding-bottom: 90px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 90px;
+}
+.image-pic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 100px;
+  margin-left: 90px;
+}
+.img-pic {
+  border: 1px solid rgba(238, 238, 238, 1);
+}
